@@ -1,11 +1,7 @@
-SUBDIRS = src layouts
+SUBDIRS = src layouts gtk-im
 
 if WANT_EXAMPLES
 SUBDIRS += examples
-endif
-
-if WANT_IM
-SUBDIRS += gtk-im
 endif 
 
 if WANT_APPLET
