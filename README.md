@@ -5,9 +5,8 @@ Usage:
    matchbox-keyboard [options] [layout]
 
 Supported options are;
-   -xid,--xid               Print window ID to stdout ( for embedding )
-   -d,--daemon              Run in 'daemon' mode (for remote control)
-   -t, --gestures           Enable gestures
+   -d, --daemon             Run in 'daemon' mode (for remote control)
+   -h, --help               Help
 
 ------------------------- UI Tweaks & Positioning --------------------
 
@@ -19,8 +18,7 @@ Supported options are;
    -b,--non-bold            Switch to normal weight
    -v,--override            Absolute positioning on the screen
    -i,--invert              Attach keyboard to the top of the screen
-   -g,--geometry <HxW.y.x>  Specify keyboard's geometry 
-  (ex: -g 200x800; -g 0x800.200.0; -g 0x0.0.50; zeroes mean "by-default")
+   -h <perc>	              Specifies the keyboard height as a percentage of the width from 1 to 100%. Default is 24
 
 matchbox-keyboard 1.5 
 Copyright (C) 2007 OpenedHand Ltd.
